@@ -39,7 +39,7 @@ jobs:
     uses: ./.github/workflows/WRT-CORE.yml
     with:
       #github_token
-      GITHUB_TOKEN: ${{secrets.REPO_TOKEN}}
+    
       #编译平台
       WRT_TARGET: ${{matrix.TARGET}}
       #默认主题
