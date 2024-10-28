@@ -42,7 +42,7 @@ jobs:
     
     with:
       #github_token
-      GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+      #GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
       #编译平台
       WRT_TARGET: ${{matrix.TARGET}}
       #默认主题
